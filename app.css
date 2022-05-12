@@ -1,0 +1,82 @@
+main {
+    margin-top: 100px;
+}
+section {
+    width: 336px;
+    max-height: 450px;
+    margin: auto;
+    border: 1px solid #c4c4c46f;
+    border-radius: 10px;
+    overflow: hidden;
+}
+h1 {
+    margin-bottom: 25px;
+    font-weight: 900;
+    font-size: 26px;
+}
+input {
+    border: 1px solid #a9a7a77a;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+
+}
+.wrapper {
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line {
+    height: 28px;
+    background: #FFDC40;
+}
+.name-sort{
+    margin-left: 200px;
+}
+.button {
+    width: 150px;
+    background: rgba(131, 58, 224, 1);
+    border-radius: 71px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.button:hover {
+    filter: brightness(97%)
+}
+.button-text {
+    padding-left: 20px;
+}
+.button .plus {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background-color: #9953F1;
+    position: relative;
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-sort {
+
+    filter: alpha (Opacity=25);
+    opacity: 0.25;    
+
+}
+
+.name-sort:hover {
+
+    filter: alpha (Opacity=100);
+    opacity: 1;
+
+}
